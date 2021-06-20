@@ -1,0 +1,96 @@
+*,
+* ::after,
+* ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.titel {
+  font-style: italic;
+  color: gold;
+  margin-bottom: 40px;
+  text-shadow: -2px 2px red;
+}
+
+.btn {
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  background-color: greenyellow;
+  border: none;
+  color: red;
+  font-size: 20px;
+  font-style: italic;
+  cursor: pointer;
+  text-shadow: -1px 1px black;
+  box-shadow: 0 0 20px #fff;
+
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px red;
+}
+
+.input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid gold;
+  border-radius: 50px;
+  background-color: gold;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  color: red;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-shadow: -2px 1px #fff;
+  box-shadow: 0 0 20px #fff;
+
+}
+
+.input:hover {
+  box-shadow: 0 0 20px red;
+}
+
+.input::placeholder {
+  color: red;
+  text-shadow: -2px 2px #fff;
+}
+
+.input__answer {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 5px;
+  background-color: lawngreen;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 282px;
+  text-align: center;
+  color: red;
+  text-shadow: -2px 2px #fff;
+  box-shadow: 0 0 20px #fff;
+}
+
+.btn {
+  display: inline-block;
+}
