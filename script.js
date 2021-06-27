@@ -13,10 +13,13 @@ button.addEventListener("click", function(){
   var bolelash = kirgiz.split("");
   polendiron.push(bolelash.reverse());
   var aylanganNatija = polendiron[0].join('');
-  if (aylanganNatija === kirgiz) {
+  if (kirgiz === '') {
+    answer.value = "So'z kiriting! ↑"
+  }
+  else if (aylanganNatija === kirgiz) {
     // console.log('polendiron');
-    answer.value = "Polendiron"
-  }else{
+    answer.value = "Polendiron ☻"
+  } else{
     // console.log('emas');
     answer.value = "Afsus polendiron emasakan"
   }
